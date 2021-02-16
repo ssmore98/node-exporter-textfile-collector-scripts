@@ -21,6 +21,7 @@ $(SPECFILE): Makefile
 	@echo "License:    GPL" >> $(SPECFILE)
 	@echo "Source:    $(SOURCEFILE)" >> $(SPECFILE)
 	@echo "Requires:    nvme-cli" >> $(SPECFILE)
+	@echo "Requires:    python3" >> $(SPECFILE)
 	@echo "%define debug_package %{nil}" >> $(SPECFILE)
 	@echo "" >> $(SPECFILE)
 	@echo "%description" >> $(SPECFILE)
